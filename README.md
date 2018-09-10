@@ -1,1 +1,1 @@
-# bitClcok
+# bitClock
