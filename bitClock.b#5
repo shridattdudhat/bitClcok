@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.1.3">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -475,250 +475,27 @@ design rules under a new name.
 </pass>
 </autorouter>
 <elements>
-<element name="U1" library="SparkFun-IC-Microcontroller" package="TQFP32-08" value="ATMEGA328P_TQFP" x="0" y="0" smashed="yes" rot="R315">
-<attribute name="NAME" x="0.0011125" y="0.3111125" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<element name="U1" library="SparkFun-IC-Microcontroller" package="TQFP32-08" value="ATMEGA328P_TQFP" x="0" y="0" rot="R315">
 <attribute name="PROD_ID" value="IC-09069" x="0" y="0" size="1.778" layer="27" rot="R315" display="off"/>
 </element>
-<element name="D1" library="SparkFun-LED" package="LED-0603" value="" x="17" y="0" smashed="yes">
-<attribute name="NAME" x="17" y="0.635" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="VALUE" x="17" y="-0.635" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
-</element>
-<element name="D2" library="SparkFun-LED" package="LED-0603" value="" x="16.903690625" y="1.806990625" smashed="yes" rot="R6.1">
-<attribute name="NAME" x="16.8362125" y="2.43839375" size="0.6096" layer="25" font="vector" ratio="20" rot="R6.1" align="bottom-center"/>
-<attribute name="VALUE" x="16.971165625" y="1.175584375" size="0.6096" layer="27" font="vector" ratio="20" rot="R6.1" align="top-center"/>
-</element>
-<element name="D3" library="SparkFun-LED" package="LED-0603" value="" x="16.61585625" y="3.593503125" smashed="yes" rot="R12.2">
-<attribute name="NAME" x="16.481653125" y="4.2141625" size="0.6096" layer="25" font="vector" ratio="20" rot="R12.2" align="bottom-center"/>
-<attribute name="VALUE" x="16.7500375" y="2.972846875" size="0.6096" layer="27" font="vector" ratio="20" rot="R12.2" align="top-center"/>
-</element>
-<element name="D4" library="SparkFun-LED" package="LED-0603" value="" x="16.139759375" y="5.339303125" smashed="yes" rot="R18.3">
-<attribute name="NAME" x="15.940371875" y="5.9421875" size="0.6096" layer="25" font="vector" ratio="20" rot="R18.3" align="bottom-center"/>
-<attribute name="VALUE" x="16.33914375" y="4.736415625" size="0.6096" layer="27" font="vector" ratio="20" rot="R18.3" align="top-center"/>
-</element>
-<element name="D5" library="SparkFun-LED" package="LED-0603" value="" x="15.480790625" y="7.02460625" smashed="yes" rot="R24.4">
-<attribute name="NAME" x="15.21846875" y="7.6028875" size="0.6096" layer="25" font="vector" ratio="20" rot="R24.4" align="bottom-center"/>
-<attribute name="VALUE" x="15.743109375" y="6.446321875" size="0.6096" layer="27" font="vector" ratio="20" rot="R24.4" align="top-center"/>
-</element>
-<element name="D6" library="SparkFun-LED" package="LED-0603" value="" x="14.64641875" y="8.63031875" smashed="yes" rot="R30.5">
-<attribute name="NAME" x="14.32413125" y="9.177453125" size="0.6096" layer="25" font="vector" ratio="20" rot="R30.5" align="bottom-center"/>
-<attribute name="VALUE" x="14.968703125" y="8.08318125" size="0.6096" layer="27" font="vector" ratio="20" rot="R30.5" align="top-center"/>
-</element>
-<element name="D7" library="SparkFun-LED" package="LED-0603" value="" x="13.646096875" y="10.13824375" smashed="yes" rot="R36.7">
-<attribute name="NAME" x="13.266603125" y="10.64736875" size="0.6096" layer="25" font="vector" ratio="20" rot="R36.7" align="bottom-center"/>
-<attribute name="VALUE" x="14.0255875" y="9.629115625" size="0.6096" layer="27" font="vector" ratio="20" rot="R36.7" align="top-center"/>
-</element>
-<element name="D8" library="SparkFun-LED" package="LED-0603" value="" x="12.491159375" y="11.5313" smashed="yes" rot="R42.7">
-<attribute name="NAME" x="12.060525" y="11.99796875" size="0.6096" layer="25" font="vector" ratio="20" rot="R42.7" align="bottom-center"/>
-<attribute name="VALUE" x="12.921790625" y="11.064628125" size="0.6096" layer="27" font="vector" ratio="20" rot="R42.7" align="top-center"/>
-</element>
-<element name="D9" library="SparkFun-LED" package="LED-0603" value="" x="11.19469375" y="12.793703125" smashed="yes" rot="R48.8">
-<attribute name="NAME" x="10.716909375" y="13.21196875" size="0.6096" layer="25" font="vector" ratio="20" rot="R48.8" align="bottom-center"/>
-<attribute name="VALUE" x="11.672475" y="12.375434375" size="0.6096" layer="27" font="vector" ratio="20" rot="R48.8" align="top-center"/>
-</element>
-<element name="D10" library="SparkFun-LED" package="LED-0603" value="" x="9.7713875" y="13.911146875" smashed="yes" rot="R54.9">
-<attribute name="NAME" x="9.251859375" y="14.276275" size="0.6096" layer="25" font="vector" ratio="20" rot="R54.9" align="bottom-center"/>
-<attribute name="VALUE" x="10.2909125" y="13.546015625" size="0.6096" layer="27" font="vector" ratio="20" rot="R54.9" align="top-center"/>
-</element>
-<element name="D11" library="SparkFun-LED" package="LED-0603" value="" x="8.237365625" y="14.870971875" smashed="yes" rot="R61">
-<attribute name="NAME" x="7.68198125" y="15.178825" size="0.6096" layer="25" font="vector" ratio="20" rot="R61" align="bottom-center"/>
-<attribute name="VALUE" x="8.792746875" y="14.563115625" size="0.6096" layer="27" font="vector" ratio="20" rot="R61" align="top-center"/>
-</element>
-<element name="D12" library="SparkFun-LED" package="LED-0603" value="" x="6.6100125" y="15.662303125" smashed="yes" rot="R67.1">
-<attribute name="NAME" x="6.025059375" y="15.90939375" size="0.6096" layer="25" font="vector" ratio="20" rot="R67.1" align="bottom-center"/>
-<attribute name="VALUE" x="7.1949625" y="15.415209375" size="0.6096" layer="27" font="vector" ratio="20" rot="R67.1" align="top-center"/>
-</element>
-<element name="D13" library="SparkFun-LED" package="LED-0603" value="" x="4.9077625" y="16.276175" smashed="yes" rot="R73.2">
-<attribute name="NAME" x="4.2998625" y="16.459709375" size="0.6096" layer="25" font="vector" ratio="20" rot="R73.2" align="bottom-center"/>
-<attribute name="VALUE" x="5.515659375" y="16.0926375" size="0.6096" layer="27" font="vector" ratio="20" rot="R73.2" align="top-center"/>
-</element>
-<element name="D14" library="SparkFun-LED" package="LED-0603" value="" x="3.149909375" y="16.70563125" smashed="yes" rot="R79.4">
-<attribute name="NAME" x="2.52574375" y="16.8224375" size="0.6096" layer="25" font="vector" ratio="20" rot="R79.4" align="bottom-center"/>
-<attribute name="VALUE" x="3.774071875" y="16.588821875" size="0.6096" layer="27" font="vector" ratio="20" rot="R79.4" align="top-center"/>
-</element>
-<element name="D15" library="SparkFun-LED" package="LED-0603" value="" x="1.3563625" y="16.945803125" smashed="yes" rot="R85.4">
-<attribute name="NAME" x="0.72340625" y="16.996728125" size="0.6096" layer="25" font="vector" ratio="20" rot="R85.4" align="bottom-center"/>
-<attribute name="VALUE" x="1.989315625" y="16.894875" size="0.6096" layer="27" font="vector" ratio="20" rot="R85.4" align="top-center"/>
-</element>
-<element name="D16" library="SparkFun-LED" package="LED-0603" value="" x="-0.45255" y="16.993975" smashed="yes" rot="R91.5">
-<attribute name="NAME" x="-1.08733125" y="16.97735" size="0.6096" layer="25" font="vector" ratio="20" rot="R91.5" align="bottom-center"/>
-<attribute name="VALUE" x="0.18223125" y="17.010596875" size="0.6096" layer="27" font="vector" ratio="20" rot="R91.5" align="top-center"/>
-</element>
-<element name="D17" library="SparkFun-LED" package="LED-0603" value="" x="-2.256334375" y="16.849596875" smashed="yes" rot="R97.6">
-<attribute name="NAME" x="-2.885753125" y="16.7656125" size="0.6096" layer="25" font="vector" ratio="20" rot="R97.6" align="bottom-center"/>
-<attribute name="VALUE" x="-1.6269125" y="16.933578125" size="0.6096" layer="27" font="vector" ratio="20" rot="R97.6" align="top-center"/>
-</element>
-<element name="D18" library="SparkFun-LED" package="LED-0603" value="" x="-4.034553125" y="16.514309375" smashed="yes" rot="R103.7">
-<attribute name="NAME" x="-4.651484375" y="16.363915625" size="0.6096" layer="25" font="vector" ratio="20" rot="R103.7" align="bottom-center"/>
-<attribute name="VALUE" x="-3.41761875" y="16.6647" size="0.6096" layer="27" font="vector" ratio="20" rot="R103.7" align="top-center"/>
-</element>
-<element name="D19" library="SparkFun-LED" package="LED-0603" value="" x="-5.767059375" y="15.991903125" smashed="yes" rot="R109.9">
-<attribute name="NAME" x="-6.364140625" y="15.775759375" size="0.6096" layer="25" font="vector" ratio="20" rot="R109.9" align="bottom-center"/>
-<attribute name="VALUE" x="-5.169975" y="16.20804375" size="0.6096" layer="27" font="vector" ratio="20" rot="R109.9" align="top-center"/>
-</element>
-<element name="D20" library="SparkFun-LED" package="LED-0603" value="" x="-7.434225" y="15.28830625" smashed="yes" rot="R115.9">
-<attribute name="NAME" x="-8.00544375" y="15.010934375" size="0.6096" layer="25" font="vector" ratio="20" rot="R115.9" align="bottom-center"/>
-<attribute name="VALUE" x="-6.863003125" y="15.565675" size="0.6096" layer="27" font="vector" ratio="20" rot="R115.9" align="top-center"/>
-</element>
-<element name="D21" library="SparkFun-LED" package="LED-0603" value="" x="-9.01715625" y="14.411484375" smashed="yes" rot="R122">
-<attribute name="NAME" x="-9.555665625" y="14.074984375" size="0.6096" layer="25" font="vector" ratio="20" rot="R122" align="bottom-center"/>
-<attribute name="VALUE" x="-8.47864375" y="14.74798125" size="0.6096" layer="27" font="vector" ratio="20" rot="R122" align="top-center"/>
-</element>
-<element name="D22" library="SparkFun-LED" package="LED-0603" value="" x="-10.49791875" y="13.371375" smashed="yes" rot="R128.1">
-<attribute name="NAME" x="-10.997621875" y="12.97955625" size="0.6096" layer="25" font="vector" ratio="20" rot="R128.1" align="bottom-center"/>
-<attribute name="VALUE" x="-9.9982125" y="13.763190625" size="0.6096" layer="27" font="vector" ratio="20" rot="R128.1" align="top-center"/>
-</element>
-<element name="D23" library="SparkFun-LED" package="LED-0603" value="" x="-11.859734375" y="12.179765625" smashed="yes" rot="R134.2">
-<attribute name="NAME" x="-12.314971875" y="11.737065625" size="0.6096" layer="25" font="vector" ratio="20" rot="R134.2" align="bottom-center"/>
-<attribute name="VALUE" x="-11.40449375" y="12.6224625" size="0.6096" layer="27" font="vector" ratio="20" rot="R134.2" align="top-center"/>
-</element>
-<element name="D24" library="SparkFun-LED" package="LED-0603" value="" x="-13.087178125" y="10.85015" smashed="yes" rot="R140.4">
-<attribute name="NAME" x="-13.491940625" y="10.360871875" size="0.6096" layer="25" font="vector" ratio="20" rot="R140.4" align="bottom-center"/>
-<attribute name="VALUE" x="-12.6824125" y="11.339425" size="0.6096" layer="27" font="vector" ratio="20" rot="R140.4" align="top-center"/>
-</element>
-<element name="D25" library="SparkFun-LED" package="LED-0603" value="" x="-14.1663375" y="9.3976" smashed="yes" rot="R146.4">
-<attribute name="NAME" x="-14.517740625" y="8.86869375" size="0.6096" layer="25" font="vector" ratio="20" rot="R146.4" align="bottom-center"/>
-<attribute name="VALUE" x="-13.81493125" y="9.926503125" size="0.6096" layer="27" font="vector" ratio="20" rot="R146.4" align="top-center"/>
-</element>
-<element name="D26" library="SparkFun-LED" package="LED-0603" value="" x="-15.084984375" y="7.838571875" smashed="yes" rot="R152.6">
-<attribute name="NAME" x="-15.377209375" y="7.27480625" size="0.6096" layer="25" font="vector" ratio="20" rot="R152.6" align="bottom-center"/>
-<attribute name="VALUE" x="-14.79275625" y="8.402334375" size="0.6096" layer="27" font="vector" ratio="20" rot="R152.6" align="top-center"/>
-</element>
-<element name="D27" library="SparkFun-LED" package="LED-0603" value="" x="-15.832715625" y="6.19073125" smashed="yes" rot="R158.6">
-<attribute name="NAME" x="-16.064409375" y="5.599509375" size="0.6096" layer="25" font="vector" ratio="20" rot="R158.6" align="bottom-center"/>
-<attribute name="VALUE" x="-15.60101875" y="6.78195" size="0.6096" layer="27" font="vector" ratio="20" rot="R158.6" align="top-center"/>
-</element>
-<element name="D28" library="SparkFun-LED" package="LED-0603" value="" x="-16.401053125" y="4.47274375" smashed="yes" rot="R164.7">
-<attribute name="NAME" x="-16.5686125" y="3.860246875" size="0.6096" layer="25" font="vector" ratio="20" rot="R164.7" align="bottom-center"/>
-<attribute name="VALUE" x="-16.233490625" y="5.0852375" size="0.6096" layer="27" font="vector" ratio="20" rot="R164.7" align="top-center"/>
-</element>
-<element name="D29" library="SparkFun-LED" package="LED-0603" value="" x="-16.7835625" y="2.704078125" smashed="yes" rot="R170.9">
-<attribute name="NAME" x="-16.883990625" y="2.07706875" size="0.6096" layer="25" font="vector" ratio="20" rot="R170.9" align="bottom-center"/>
-<attribute name="VALUE" x="-16.68313125" y="3.331084375" size="0.6096" layer="27" font="vector" ratio="20" rot="R170.9" align="top-center"/>
-</element>
-<element name="D30" library="SparkFun-LED" package="LED-0603" value="" x="-16.97590625" y="0.904778125" smashed="yes" rot="R176.9">
-<attribute name="NAME" x="-17.01024375" y="0.27070625" size="0.6096" layer="25" font="vector" ratio="20" rot="R176.9" align="bottom-center"/>
-<attribute name="VALUE" x="-16.941565625" y="1.538846875" size="0.6096" layer="27" font="vector" ratio="20" rot="R176.9" align="top-center"/>
-</element>
-<element name="D31" library="SparkFun-LED" package="LED-0603" value="" x="-16.97590625" y="-0.904778125" smashed="yes" rot="R183.1">
-<attribute name="NAME" x="-16.941565625" y="-1.538846875" size="0.6096" layer="25" font="vector" ratio="20" rot="R183.1" align="bottom-center"/>
-<attribute name="VALUE" x="-17.01024375" y="-0.27070625" size="0.6096" layer="27" font="vector" ratio="20" rot="R183.1" align="top-center"/>
-</element>
-<element name="D32" library="SparkFun-LED" package="LED-0603" value="" x="-16.7835625" y="-2.704078125" smashed="yes" rot="R189.1">
-<attribute name="NAME" x="-16.68313125" y="-3.331084375" size="0.6096" layer="25" font="vector" ratio="20" rot="R189.1" align="bottom-center"/>
-<attribute name="VALUE" x="-16.883990625" y="-2.07706875" size="0.6096" layer="27" font="vector" ratio="20" rot="R189.1" align="top-center"/>
-</element>
-<element name="D33" library="SparkFun-LED" package="LED-0603" value="" x="-16.401053125" y="-4.47274375" smashed="yes" rot="R195.3">
-<attribute name="NAME" x="-16.233490625" y="-5.0852375" size="0.6096" layer="25" font="vector" ratio="20" rot="R195.3" align="bottom-center"/>
-<attribute name="VALUE" x="-16.5686125" y="-3.860246875" size="0.6096" layer="27" font="vector" ratio="20" rot="R195.3" align="top-center"/>
-</element>
-<element name="D34" library="SparkFun-LED" package="LED-0603" value="" x="-15.832715625" y="-6.19073125" smashed="yes" rot="R201.4">
-<attribute name="NAME" x="-15.60101875" y="-6.78195" size="0.6096" layer="25" font="vector" ratio="20" rot="R201.4" align="bottom-center"/>
-<attribute name="VALUE" x="-16.064409375" y="-5.599509375" size="0.6096" layer="27" font="vector" ratio="20" rot="R201.4" align="top-center"/>
-</element>
-<element name="D35" library="SparkFun-LED" package="LED-0603" value="" x="-15.084984375" y="-7.838571875" smashed="yes" rot="R207.4">
-<attribute name="NAME" x="-14.79275625" y="-8.402334375" size="0.6096" layer="25" font="vector" ratio="20" rot="R207.4" align="bottom-center"/>
-<attribute name="VALUE" x="-15.377209375" y="-7.27480625" size="0.6096" layer="27" font="vector" ratio="20" rot="R207.4" align="top-center"/>
-</element>
-<element name="D36" library="SparkFun-LED" package="LED-0603" value="" x="-14.1663375" y="-9.3976" smashed="yes" rot="R213.6">
-<attribute name="NAME" x="-13.81493125" y="-9.926503125" size="0.6096" layer="25" font="vector" ratio="20" rot="R213.6" align="bottom-center"/>
-<attribute name="VALUE" x="-14.517740625" y="-8.86869375" size="0.6096" layer="27" font="vector" ratio="20" rot="R213.6" align="top-center"/>
-</element>
-<element name="D37" library="SparkFun-LED" package="LED-0603" value="" x="-13.087178125" y="-10.85015" smashed="yes" rot="R219.6">
-<attribute name="NAME" x="-12.6824125" y="-11.339425" size="0.6096" layer="25" font="vector" ratio="20" rot="R219.6" align="bottom-center"/>
-<attribute name="VALUE" x="-13.491940625" y="-10.360871875" size="0.6096" layer="27" font="vector" ratio="20" rot="R219.6" align="top-center"/>
-</element>
-<element name="D38" library="SparkFun-LED" package="LED-0603" value="" x="-11.859734375" y="-12.179765625" smashed="yes" rot="R225.8">
-<attribute name="NAME" x="-11.40449375" y="-12.6224625" size="0.6096" layer="25" font="vector" ratio="20" rot="R225.8" align="bottom-center"/>
-<attribute name="VALUE" x="-12.314971875" y="-11.737065625" size="0.6096" layer="27" font="vector" ratio="20" rot="R225.8" align="top-center"/>
-</element>
-<element name="D39" library="SparkFun-LED" package="LED-0603" value="" x="-10.49791875" y="-13.371375" smashed="yes" rot="R231.9">
-<attribute name="NAME" x="-9.9982125" y="-13.763190625" size="0.6096" layer="25" font="vector" ratio="20" rot="R231.9" align="bottom-center"/>
-<attribute name="VALUE" x="-10.997621875" y="-12.97955625" size="0.6096" layer="27" font="vector" ratio="20" rot="R231.9" align="top-center"/>
-</element>
-<element name="D40" library="SparkFun-LED" package="LED-0603" value="" x="-9.01715625" y="-14.411484375" smashed="yes" rot="R238">
-<attribute name="NAME" x="-8.47864375" y="-14.74798125" size="0.6096" layer="25" font="vector" ratio="20" rot="R238" align="bottom-center"/>
-<attribute name="VALUE" x="-9.555665625" y="-14.074984375" size="0.6096" layer="27" font="vector" ratio="20" rot="R238" align="top-center"/>
-</element>
-<element name="D41" library="SparkFun-LED" package="LED-0603" value="" x="-7.434225" y="-15.28830625" smashed="yes" rot="R244.1">
-<attribute name="NAME" x="-6.863003125" y="-15.565675" size="0.6096" layer="25" font="vector" ratio="20" rot="R244.1" align="bottom-center"/>
-<attribute name="VALUE" x="-8.00544375" y="-15.010934375" size="0.6096" layer="27" font="vector" ratio="20" rot="R244.1" align="top-center"/>
-</element>
-<element name="D42" library="SparkFun-LED" package="LED-0603" value="" x="-5.767059375" y="-15.991903125" smashed="yes" rot="R250.1">
-<attribute name="NAME" x="-5.169975" y="-16.20804375" size="0.6096" layer="25" font="vector" ratio="20" rot="R250.1" align="bottom-center"/>
-<attribute name="VALUE" x="-6.364140625" y="-15.775759375" size="0.6096" layer="27" font="vector" ratio="20" rot="R250.1" align="top-center"/>
-</element>
-<element name="D43" library="SparkFun-LED" package="LED-0603" value="" x="-4.034553125" y="-16.514309375" smashed="yes" rot="R256.3">
-<attribute name="NAME" x="-3.41761875" y="-16.6647" size="0.6096" layer="25" font="vector" ratio="20" rot="R256.3" align="bottom-center"/>
-<attribute name="VALUE" x="-4.651484375" y="-16.363915625" size="0.6096" layer="27" font="vector" ratio="20" rot="R256.3" align="top-center"/>
-</element>
-<element name="D44" library="SparkFun-LED" package="LED-0603" value="" x="-2.256334375" y="-16.849596875" smashed="yes" rot="R262.4">
-<attribute name="NAME" x="-1.6269125" y="-16.933578125" size="0.6096" layer="25" font="vector" ratio="20" rot="R262.4" align="bottom-center"/>
-<attribute name="VALUE" x="-2.885753125" y="-16.7656125" size="0.6096" layer="27" font="vector" ratio="20" rot="R262.4" align="top-center"/>
-</element>
-<element name="D45" library="SparkFun-LED" package="LED-0603" value="" x="-0.45255" y="-16.993975" smashed="yes" rot="R268.5">
-<attribute name="NAME" x="0.18223125" y="-17.010596875" size="0.6096" layer="25" font="vector" ratio="20" rot="R268.5" align="bottom-center"/>
-<attribute name="VALUE" x="-1.08733125" y="-16.97735" size="0.6096" layer="27" font="vector" ratio="20" rot="R268.5" align="top-center"/>
-</element>
-<element name="D46" library="SparkFun-LED" package="LED-0603" value="" x="1.3563625" y="-16.945803125" smashed="yes" rot="R274.6">
-<attribute name="NAME" x="1.989315625" y="-16.894875" size="0.6096" layer="25" font="vector" ratio="20" rot="R274.6" align="bottom-center"/>
-<attribute name="VALUE" x="0.72340625" y="-16.996728125" size="0.6096" layer="27" font="vector" ratio="20" rot="R274.6" align="top-center"/>
-</element>
-<element name="D47" library="SparkFun-LED" package="LED-0603" value="" x="3.149909375" y="-16.70563125" smashed="yes" rot="R280.6">
-<attribute name="NAME" x="3.774071875" y="-16.588821875" size="0.6096" layer="25" font="vector" ratio="20" rot="R280.6" align="bottom-center"/>
-<attribute name="VALUE" x="2.52574375" y="-16.8224375" size="0.6096" layer="27" font="vector" ratio="20" rot="R280.6" align="top-center"/>
-</element>
-<element name="D48" library="SparkFun-LED" package="LED-0603" value="" x="4.9077625" y="-16.276175" smashed="yes" rot="R286.8">
-<attribute name="NAME" x="5.515659375" y="-16.0926375" size="0.6096" layer="25" font="vector" ratio="20" rot="R286.8" align="bottom-center"/>
-<attribute name="VALUE" x="4.2998625" y="-16.459709375" size="0.6096" layer="27" font="vector" ratio="20" rot="R286.8" align="top-center"/>
-</element>
-<element name="D49" library="SparkFun-LED" package="LED-0603" value="" x="6.6100125" y="-15.662303125" smashed="yes" rot="R292.9">
-<attribute name="NAME" x="7.1949625" y="-15.415209375" size="0.6096" layer="25" font="vector" ratio="20" rot="R292.9" align="bottom-center"/>
-<attribute name="VALUE" x="6.025059375" y="-15.90939375" size="0.6096" layer="27" font="vector" ratio="20" rot="R292.9" align="top-center"/>
-</element>
-<element name="D50" library="SparkFun-LED" package="LED-0603" value="" x="8.237365625" y="-14.870971875" smashed="yes" rot="R299">
-<attribute name="NAME" x="8.792746875" y="-14.563115625" size="0.6096" layer="25" font="vector" ratio="20" rot="R299" align="bottom-center"/>
-<attribute name="VALUE" x="7.68198125" y="-15.178825" size="0.6096" layer="27" font="vector" ratio="20" rot="R299" align="top-center"/>
-</element>
-<element name="D51" library="SparkFun-LED" package="LED-0603" value="" x="9.7713875" y="-13.911146875" smashed="yes" rot="R305.1">
-<attribute name="NAME" x="10.2909125" y="-13.546015625" size="0.6096" layer="25" font="vector" ratio="20" rot="R305.1" align="bottom-center"/>
-<attribute name="VALUE" x="9.251859375" y="-14.276275" size="0.6096" layer="27" font="vector" ratio="20" rot="R305.1" align="top-center"/>
-</element>
-<element name="D52" library="SparkFun-LED" package="LED-0603" value="" x="11.19469375" y="-12.793703125" smashed="yes" rot="R311.2">
-<attribute name="NAME" x="11.672475" y="-12.375434375" size="0.6096" layer="25" font="vector" ratio="20" rot="R311.2" align="bottom-center"/>
-<attribute name="VALUE" x="10.716909375" y="-13.21196875" size="0.6096" layer="27" font="vector" ratio="20" rot="R311.2" align="top-center"/>
-</element>
-<element name="D53" library="SparkFun-LED" package="LED-0603" value="" x="12.491159375" y="-11.5313" smashed="yes" rot="R317.3">
-<attribute name="NAME" x="12.921790625" y="-11.064628125" size="0.6096" layer="25" font="vector" ratio="20" rot="R317.3" align="bottom-center"/>
-<attribute name="VALUE" x="12.060525" y="-11.99796875" size="0.6096" layer="27" font="vector" ratio="20" rot="R317.3" align="top-center"/>
-</element>
-<element name="D54" library="SparkFun-LED" package="LED-0603" value="" x="13.646096875" y="-10.13824375" smashed="yes" rot="R323.3">
-<attribute name="NAME" x="14.0255875" y="-9.629115625" size="0.6096" layer="25" font="vector" ratio="20" rot="R323.3" align="bottom-center"/>
-<attribute name="VALUE" x="13.266603125" y="-10.64736875" size="0.6096" layer="27" font="vector" ratio="20" rot="R323.3" align="top-center"/>
-</element>
-<element name="D55" library="SparkFun-LED" package="LED-0603" value="" x="14.64641875" y="-8.63031875" smashed="yes" rot="R329.5">
-<attribute name="NAME" x="14.968703125" y="-8.08318125" size="0.6096" layer="25" font="vector" ratio="20" rot="R329.5" align="bottom-center"/>
-<attribute name="VALUE" x="14.32413125" y="-9.177453125" size="0.6096" layer="27" font="vector" ratio="20" rot="R329.5" align="top-center"/>
-</element>
-<element name="D56" library="SparkFun-LED" package="LED-0603" value="" x="15.480790625" y="-7.02460625" smashed="yes" rot="R335.6">
-<attribute name="NAME" x="15.743109375" y="-6.446321875" size="0.6096" layer="25" font="vector" ratio="20" rot="R335.6" align="bottom-center"/>
-<attribute name="VALUE" x="15.21846875" y="-7.6028875" size="0.6096" layer="27" font="vector" ratio="20" rot="R335.6" align="top-center"/>
-</element>
-<element name="D57" library="SparkFun-LED" package="LED-0603" value="" x="16.139759375" y="-5.339303125" smashed="yes" rot="R341.7">
-<attribute name="NAME" x="16.33914375" y="-4.736415625" size="0.6096" layer="25" font="vector" ratio="20" rot="R341.7" align="bottom-center"/>
-<attribute name="VALUE" x="15.940371875" y="-5.9421875" size="0.6096" layer="27" font="vector" ratio="20" rot="R341.7" align="top-center"/>
-</element>
-<element name="D58" library="SparkFun-LED" package="LED-0603" value="" x="16.61585625" y="-3.593503125" smashed="yes" rot="R347.8">
-<attribute name="NAME" x="16.750046875" y="-2.97284375" size="0.6096" layer="25" font="vector" ratio="20" rot="R347.8" align="bottom-center"/>
-<attribute name="VALUE" x="16.4816625" y="-4.214159375" size="0.6096" layer="27" font="vector" ratio="20" rot="R347.8" align="top-center"/>
-</element>
-<element name="D59" library="SparkFun-LED" package="LED-0603" value="" x="16.903690625" y="-1.806990625" smashed="yes" rot="R353.9">
-<attribute name="NAME" x="16.971165625" y="-1.175584375" size="0.6096" layer="25" font="vector" ratio="20" rot="R353.9" align="bottom-center"/>
-<attribute name="VALUE" x="16.8362125" y="-2.43839375" size="0.6096" layer="27" font="vector" ratio="20" rot="R353.9" align="top-center"/>
-</element>
-<element name="D60" library="SparkFun-LED" package="LED-0603" value="" x="17" y="0" smashed="yes">
-<attribute name="NAME" x="17" y="0.635" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="VALUE" x="17" y="-0.635" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
-</element>
+<element name="D1" library="SparkFun-LED" package="LED-0603" value="" x="-1" y="9" rot="R90"/>
+<element name="D2" library="SparkFun-LED" package="LED-0603" value="" x="1" y="9" rot="R90"/>
+<element name="D3" library="SparkFun-LED" package="LED-0603" value="" x="-3" y="9" rot="R90"/>
+<element name="D4" library="SparkFun-LED" package="LED-0603" value="" x="3" y="9" rot="R90"/>
+<element name="D5" library="SparkFun-LED" package="LED-0603" value="" x="-5" y="-10" rot="R90"/>
+<element name="D6" library="SparkFun-LED" package="LED-0603" value="" x="-3" y="-10" rot="R90"/>
+<element name="D7" library="SparkFun-LED" package="LED-0603" value="" x="-1" y="-10" rot="R90"/>
+<element name="D8" library="SparkFun-LED" package="LED-0603" value="" x="1" y="-10" rot="R90"/>
+<element name="D9" library="SparkFun-LED" package="LED-0603" value="" x="3" y="-10" rot="R90"/>
+<element name="D10" library="SparkFun-LED" package="LED-0603" value="" x="5" y="-10" rot="R90"/>
+<element name="D11" library="SparkFun-LED" package="LED-0603" value="" x="0" y="-17" rot="R270"/>
+<element name="D12" library="SparkFun-LED" package="LED-0603" value="" x="0" y="17" rot="R90"/>
+<element name="D13" library="SparkFun-LED" package="LED-0603" value="" x="-17" y="0" rot="R180"/>
+<element name="D14" library="SparkFun-LED" package="LED-0603" value="" x="17" y="0"/>
+<element name="D15" library="SparkFun-LED" package="LED-0603" value="" x="-12" y="12" rot="R135"/>
+<element name="D16" library="SparkFun-LED" package="LED-0603" value="" x="12" y="-12" rot="R315"/>
+<element name="D17" library="SparkFun-LED" package="LED-0603" value="" x="-12" y="-12" rot="R225"/>
+<element name="D18" library="SparkFun-LED" package="LED-0603" value="" x="12" y="12" rot="R45"/>
 </elements>
 <signals>
 </signals>
